@@ -219,4 +219,4 @@ rp-mxtr-rpga/
 
 ## 👤 Автор
 
-**MXTR** — [@mxtr](https://github.com/mxtr)
+**MXTR** — [@mxtr]
