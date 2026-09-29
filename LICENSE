@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 MXTR-manager
+Copyright (c) 2026 MXTR
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,14 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+NOTICE REGARDING ASSETS:
+
+The code in this repository is licensed under the MIT License above.
+
+3D models, textures and other art assets included in the distributed .jar files
+are NOT covered by the MIT License. They are distributed under their own
+licenses (CC0 / CC-BY 3.0) and remain the property of their respective
+authors. See LICENSES.md for full attribution details.
