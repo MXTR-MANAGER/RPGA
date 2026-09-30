@@ -12,7 +12,7 @@
 [![Yarn](https://img.shields.io/badge/Mappings-Yarn%201.21.10%2Bbuild.3-8A8A8A?style=flat-square)](https://fabricmc.net/develop/yarn/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
 
-[![Версий](https://img.shields.io/badge/Релизов-5-blueviolet?style=for-the-badge)](#-версии)
+[![Версий](https://img.shields.io/badge/Релизов-6-blueviolet?style=for-the-badge)](#-версии)
 [![Предметов](https://img.shields.io/badge/Предметов-132-success?style=for-the-badge)](#-возможности)
 [![Бета](https://img.shields.io/badge/Latest%20beta-51.4--beta-orange?style=for-the-badge)](versions/51.4-beta/)
 [![Среда](https://img.shields.io/badge/Клиент%20%2B%20Сервер-3ba55c?style=for-the-badge)](#-установка)
@@ -181,7 +181,7 @@ RP-игру: фракции с рангами и формой, живые NPC с
 
 ## 📦 Версии
 
-Всего опубликовано **5 сборок** — по одной на каждую задеплоенную на сервере версию.
+Всего опубликовано **6 сборок** — по одной на каждую задеплоенную на сервере версию.
 У каждой версии есть **свой README** с подробным описанием того, что нового.
 
 ### 🟢 Релизные — работают на клиенте **и сервере**
@@ -190,6 +190,7 @@ RP-игру: фракции с рангами и формой, живые NPC с
 |---|---:|---:|---:|---|:---:|:---:|---|
 | [**1.0.0**](versions/1.0.0/README.md) | 117 | 7 | 3.8 МБ | 06.09.2026 | ✅ Релиз | [`v1.0.0`](https://github.com/MXTR-MANAGER/RPGA-Minecraft-Roleplay/releases/tag/v1.0.0) | [⬇ Скачать](versions/1.0.0/RP-MXTR-RPGA-1.0.0.jar) |
 | [**12.1.0**](versions/12.1.0/README.md) | 118 | 7 | 4.0 МБ | 08.09.2026 | ✅ Релиз | [`v12.1.0`](https://github.com/MXTR-MANAGER/RPGA-Minecraft-Roleplay/releases/tag/v12.1.0) | [⬇ Скачать](versions/12.1.0/RP-MXTR-RPGA-12.1.0.jar) |
+| [**30.0.1**](versions/30.0.1/README.md) | 118 | 7 | 4.1 МБ | 12.09.2026 | ✅ Релиз | [`v30.0.1`](https://github.com/MXTR-MANAGER/RPGA-Minecraft-Roleplay/releases/tag/v30.0.1) | [⬇ Скачать](versions/30.0.1/RP-MXTR-RPGA-30.0.1.jar) |
 | [**30.0.2**](versions/30.0.2/README.md) | 129 | 10 | 4.3 МБ | 24.09.2026 | ✅ Релиз | [`v30.0.2`](https://github.com/MXTR-MANAGER/RPGA-Minecraft-Roleplay/releases/tag/v30.0.2) | [⬇ Скачать](versions/30.0.2/RP-MXTR-RPGA-30.0.2.jar) |
 
 ### 🧪 Бета — **только одиночная игра, на сервер НЕ ставить**
@@ -204,7 +205,7 @@ RP-игру: фракции с рангами и формой, живые NPC с
 | [**51.3-beta**](versions/51.3-beta/README.md) | 132 | 10 | 4.4 МБ | 28.09.2026 | 🧪 Бета · SP | [`v51.3-beta`](https://github.com/MXTR-MANAGER/RPGA-Minecraft-Roleplay/releases/tag/v51.3-beta) | [⬇ Скачать](versions/51.3-beta/RP-MXTR-RPGA-51.3_beta.jar) |
 | [**51.4-beta**](versions/51.4-beta/README.md) | 132 | 10 | 4.4 МБ | 29.09.2026 | 🧪 Бета · SP | [`v51.4-beta`](https://github.com/MXTR-MANAGER/RPGA-Minecraft-Roleplay/releases/tag/v51.4-beta) | [⬇ Скачать](versions/51.4-beta/RP-MXTR-RPGA-51.4_beta.jar) |
 
-> 🏷 Каждая версия помечена git-тегом: `v1.0.0`, `v12.1.0`, `v30.0.2`,
+> 🏷 Каждая версия помечена git-тегом: `v1.0.0`, `v12.1.0`, `v30.0.1`, `v30.0.2`,
 > `v51.3-beta`, `v51.4-beta` — доступна на вкладке
 > [Releases](https://github.com/MXTR-MANAGER/RPGA-Minecraft-Roleplay/releases) и
 > [Tags](https://github.com/MXTR-MANAGER/RPGA-Minecraft-Roleplay/tags).
@@ -216,6 +217,7 @@ RP-игру: фракции с рангами и формой, живые NPC с
 |---|---|
 | [1.0.0](versions/1.0.0/README.md) | Первая публичная версия. 117 предметов: оружие, патроны, взрывчатка, 7 фракций, NPC-система, транспорт, жажда, температура, админ-панель |
 | [12.1.0](versions/12.1.0/README.md) | Смартфон, авторизация через серверные команды |
+| [30.0.1](versions/30.0.1/README.md) | Приложение «Даркнет» в смартфоне + синхронизация его состояния с сервером |
 | [30.0.2](versions/30.0.2/README.md) | Тюрьма, замки и ключи, 3 вида дымовых гранат, блоки «Дорожный конус» / «Барьер» / «Навигационная точка» |
 | [51.3-beta](versions/51.3-beta/README.md) 🧪 | Рюкзак, фото, ножницы, блокнот штрафов и **система подробных описаний всех предметов** |
 | [51.4-beta](versions/51.4-beta/README.md) 🧪 | Настройки спавна мобов, бинокль с приближением, полный комплект текстур формы |
@@ -282,6 +284,7 @@ rp-mxtr-rpga/
 └── versions/
     ├── 1.0.0/             ← README + jar
     ├── 12.1.0/
+    ├── 30.0.1/
     ├── 30.0.2/
     ├── 51.3-beta/
     └── 51.4-beta/

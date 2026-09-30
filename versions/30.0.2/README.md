@@ -6,6 +6,7 @@
 
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.21.10-4CAF50?style=flat-square&logo=mojang)](https://www.minecraft.net/)
 [![Статус](https://img.shields.io/badge/Статус-✅%20Релиз-brightgreen?style=for-the-badge)](#)
+[![Тег](https://img.shields.io/badge/Тег-v30.0.2-blueviolet?style=for-the-badge)](https://github.com/MXTR-MANAGER/RPGA-Minecraft-Roleplay/releases/tag/v30.0.2)
 [![Сервер](https://img.shields.io/badge/✅%20Клиент%20%2B%20сервер-2ea44f?style=for-the-badge)](#)
 
 `Minecraft 1.21.10` · `Fabric ≥ 0.16.9` · `Java 21`
@@ -105,4 +106,7 @@
 |---|---|
 | [1.0.0](../1.0.0/) | Первая публичная версия: 117 предметов, фракции, NPC, транспорт |
 | [12.1.0](../12.1.0/) | Смартфон, авторизация через серверные команды |
+| [30.0.1](../30.0.1/) 🌐 | Приложение «Даркнет» в смартфоне, синхронизация состояния |
 | **30.0.2** | **Тюрьма, замки, 3 дымовые гранаты, блоки «Барьер» / «Дорожный конус» / «Навигационная точка», Смартфон РГА** |
+| [51.3-beta](../51.3-beta/) 🧪 | Рюкзак, фото, ножницы, блокнот штрафов, описания предметов |
+| [51.4-beta](../51.4-beta/) 🧪 | Настройки спавна мобов, бинокль с приближением, 42 текстуры формы |
