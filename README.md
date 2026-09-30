@@ -14,7 +14,7 @@
 
 [![Версий](https://img.shields.io/badge/Релизов-5-blueviolet?style=for-the-badge)](#-версии)
 [![Предметов](https://img.shields.io/badge/Предметов-132-success?style=for-the-badge)](#-возможности)
-[![Бета](https://img.shields.io/badge/51.4--beta-оранжевый?style=for-the-badge)](versions/51.4-beta/)
+[![Бета](https://img.shields.io/badge/Latest%20beta-51.4--beta-orange?style=for-the-badge)](versions/51.4-beta/)
 [![Среда](https://img.shields.io/badge/Клиент%20%2B%20Сервер-3ba55c?style=for-the-badge)](#-установка)
 [![Mod ID](https://img.shields.io/badge/Mod%20ID-rp--mxtr--rpga-blueviolet?style=flat-square)](https://github.com/MXTR-MANAGER/RPGA-Minecraft-Roleplay)
 
