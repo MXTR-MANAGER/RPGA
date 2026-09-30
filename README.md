@@ -2,20 +2,43 @@
 
 # 🎮 RP-MXTR-RPGA
 
-**Roleplay-мод для Minecraft — предметы, фракции, NPC, транспорт, админка**
+### ✨ Roleplay-мод для Minecraft ✨
+**Предметы · Фракции · NPC · 3D-транспорт · Тюрьма · Админ-панель**
 
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.21.10-4CAF50?style=flat-square&logo=mojang)](https://www.minecraft.net/)
-[![Fabric](https://img.shields.io/badge/Fabric-Loader%20%3E%3D0.16.9-DBD5A5?style=flat-square&logo=fabric&logoColor=DDB0D2)](https://fabricmc.net/)
+[![Fabric](https://img.shields.io/badge/Fabric%20Loader%20%3E%3D0.16.9-DBD5A5?style=flat-square&logo=fabric&logoColor=DDB0D2)](https://fabricmc.net/)
 [![Java](https://img.shields.io/badge/Java-21-ED8B00?style=flat-square&logo=openjdk&logoColor=ED8B00)](https://adoptium.net/)
-[![Yarn](https://img.shields.io/badge/Mappings-Yarn%201.21.10%2Bbuild.3-8A8A8A?style=flat-square)](https://fabricmc.net/develop/yarn/)
 [![Fabric API](https://img.shields.io/badge/Fabric%20API-0.138.4%2B1.21.10-9A7BB5?style=flat-square)](https://modrinth.com/mod/fabric-api)
+[![Yarn](https://img.shields.io/badge/Mappings-Yarn%201.21.10%2Bbuild.3-8A8A8A?style=flat-square)](https://fabricmc.net/develop/yarn/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-[![Mod ID](https://img.shields.io/badge/Mod%20ID-rp--mxtr--rpga-blueviolet?style=flat-square)](https://modrinth.com)
-[![Versions](https://img.shields.io/badge/Versions-5-blue?style=flat-square)](#-версии)
 
-**⬇ Скачать последнюю → [51.4-beta](versions/51.4-beta/)**
+[![Версий](https://img.shields.io/badge/Релизов-5-blueviolet?style=for-the-badge)](#-версии)
+[![Предметов](https://img.shields.io/badge/Предметов-132-success?style=for-the-badge)](#-возможности)
+[![Бета](https://img.shields.io/badge/51.4--beta-оранжевый?style=for-the-badge)](versions/51.4-beta/)
+[![Среда](https://img.shields.io/badge/Клиент%20%2B%20Сервер-3ba55c?style=for-the-badge)](#-установка)
+[![Mod ID](https://img.shields.io/badge/Mod%20ID-rp--mxtr--rpga-blueviolet?style=flat-square)](https://github.com/MXTR-MANAGER/RPGA-Minecraft-Roleplay)
+
+<br>
+
+### ⬇ Скачать последнюю стабильную — [30.0.2](versions/30.0.2/)
+### 🧪 Скачать последнюю бету — [51.4-beta](versions/51.4-beta/)
 
 </div>
+
+---
+
+## 📑 Содержание
+
+| Раздел | Описание |
+|:--|:--|
+| [📋 О моде](#-о-моде) | Что это и для чего |
+| [✨ Возможности](#-возможности) | 7 больших блоков фич |
+| [🚀 Установка](#-установка) | Одиночная игра и сервер |
+| [🎨 Формы](#-формы) | Комплекты формы фракций |
+| [📦 Версии](#-версии) | 5 задеплоенных сборок |
+| [⌨️ Управление](#️-управление) | Горячие клавиши |
+| [🎨 Credits](#-credits) | Авторы моделей и текстур |
+| [📜 Лицензия](#-лицензия) | MIT + атрибуция |
 
 ---
 
@@ -26,6 +49,18 @@ RP-игру: фракции с рангами и формой, живые NPC с
 на реальных OBJ-моделях, оружие с патронами и гильзами, тюрьма с замками,
 пожарная система, жажда и температура, документы и полноценная админ-панель.
 
+<div align="center">
+
+| 🎯 Цель | 💡 Фишка | 🛡 Фракции | 🚗 Транспорт |
+|:--|:--|:--|:--|
+| RP-сервер без внешних плагинов | 130+ предметов | 7 фракций с рангами | 3D-машины на OBJ |
+
+| 👥 NPC | 🧬 Выживание | 🛠 Админка | 🗺 Мир |
+|:--|:--|:--|:--|
+| Работа, диалоги, панели | Жажда, температура, голод | Выдача, деньги, ранги | Тюрьма, замки, барьеры |
+
+</div>
+
 | Параметр | Значение |
 |---|---|
 | **Minecraft** | 1.21.10 |
@@ -34,49 +69,13 @@ RP-игру: фракции с рангами и формой, живые NPC с
 | **Fabric API** | 0.138.4+1.21.10 |
 | **Java** | 21 |
 | **Mod ID** | `rp-mxtr-rpga` |
-| **Лицензия** | MIT (код) + CC0/CC-BY 3.0 (модели) — см. [LICENSES.md](LICENSES.md) |
+| **Лицензия** | MIT (код) + CC0 / CC-BY 3.0 (модели) — см. [LICENSES.md](LICENSES.md) |
 | **Среда** | Клиент + сервер |
+| **Клиент / сервер** | На клиенте и на сервере должна стоять **одна и та же версия** |
 
 ---
 
-## 🚀 Установка
-
-### Одиночная игра / локальный сервер
-
-1. Скачай нужную версию из [таблицы версий](#-версии)
-2. Установи **Fabric Loader ≥ 0.16.9** для 1.21.10
-3. Установи **Fabric API 0.138.4+1.21.10**
-4. Кинь `.jar` мода в папку `mods/`
-5. Готово ✅
-
-```
-. minecraft/
-├── mods/
-│   ├── fabric-api-0.138.4+1.21.10.jar   ← обязательно
-│   └── RP-MXTR-RPGA-51.4_beta.jar       ← мод
-└── config/
-    └── rp-mxtr-rpga/                     ← создастся автоматически
-```
-
-### Выделенный сервер
-
-Мод **client + server** — на клиенте и на сервере должна стоять **одна и та же версия**.
-
-> ⚠️ **Бета-версии (51.3 / 51.4) на сервер не устанавливаются** — они работают
-> только в одиночной игре. Подробнее в разделе [Версии](#-версии).
-
-### Зависимости
-
-| Зависимость | Версия | Обязательна |
-|---|---|---|
-| Fabric Loader | ≥ 0.16.9 | ✅ |
-| Fabric API | 0.138.4+1.21.10 | ✅ |
-| Java | 21 | ✅ |
-| Not Enough Animations | вшит в мод | ➖ |
-
----
-
-## 🎮 Возможности
+## ✨ Возможности
 
 | 🔫 Оружие | 🛡 Снаряжение |
 |---|---|
@@ -126,12 +125,52 @@ RP-игру: фракции с рангами и формой, живые NPC с
 
 ---
 
+## 🚀 Установка
+
+### 1️⃣ Одиночная игра / локальный сервер
+
+| Шаг | Действие |
+|:--|:--|
+| 1 | Скачай нужную версию из [таблицы версий](#-версии) |
+| 2 | Установи **Fabric Loader ≥ 0.16.9** для Minecraft 1.21.10 |
+| 3 | Установи **Fabric API 0.138.4+1.21.10** |
+| 4 | Кинь `.jar` мода в папку `mods/` |
+| 5 | Готово ✅ |
+
+```
+.minecraft/
+├── mods/
+│   ├── fabric-api-0.138.4+1.21.10.jar   ← обязательно
+│   └── RP-MXTR-RPGA-51.4_beta.jar       ← мод
+└── config/
+    └── rp-mxtr-rpga/                     ← создастся автоматически
+```
+
+### 2️⃣ Выделенный сервер
+
+> ⚠️ Мод **client + server** — на клиенте и на сервере должна стоять
+> **одна и та же версия**.
+
+> 🚫 **Бета-версии (51.3 / 51.4) на сервер не устанавливаются** — они работают
+> только в одиночной игре. Подробнее в разделе [Версии](#-версии).
+
+### 3️⃣ Зависимости
+
+| Зависимость | Версия | Обязательна |
+|---|---|:---:|
+| Fabric Loader | ≥ 0.16.9 | ✅ |
+| Fabric API | 0.138.4+1.21.10 | ✅ |
+| Java | 21 | ✅ |
+| Not Enough Animations | вшит в мод | ➖ |
+
+---
+
 ## 🎨 Формы
 
-| Формация | Шлем/Головной убор | Нагрудник | Штаны | Ботинки |
+| Формация | Шлем / Головной убор | Нагрудник | Штаны | Ботинки |
 |---|:---:|:---:|:---:|:---:|
-| **Армия** | — | Куртка армии | — | — |
-| **Полиция** | Фуражка | Куртка полиции | — | — |
+| **Армия** | — | ✅ Куртка армии | — | — |
+| **Полиция** | Фуражка | ✅ Куртка полиции | — | — |
 | **ДПС** | ✅ | ✅ | ✅ | ✅ |
 | **ФСБ** | ✅ | ✅ | ✅ | ✅ |
 | **ФСО** | ✅ | ✅ | ✅ | ✅ |
@@ -142,13 +181,16 @@ RP-игру: фракции с рангами и формой, живые NPC с
 
 ## 📦 Версии
 
+Всего опубликовано **5 сборок** — по одной на каждую задеплоенную на сервере версию.
+У каждой версии есть **свой README** с подробным описанием того, что нового.
+
 ### 🟢 Релизные — работают на клиенте **и сервере**
 
-| Версия | Предметов | Блоков | Размер | Дата | Статус | Скачать |
-|---|---:|---:|---:|---|:---:|---|
-| **1.0.0** | 117 | 7 | 3.8 МБ | 06.09.2026 | ✅ Релиз | [⬇ Скачать](versions/1.0.0/RP-MXTR-RPGA-1.0.0.jar) |
-| **12.1.0** | 118 | 7 | 4.0 МБ | 08.09.2026 | ✅ Релиз | [⬇ Скачать](versions/12.1.0/RP-MXTR-RPGA-12.1.0.jar) |
-| **30.0.2** | 129 | 10 | 4.3 МБ | 24.09.2026 | ✅ Релиз | [⬇ Скачать](versions/30.0.2/RP-MXTR-RPGA-30.0.2.jar) |
+| Версия | Предметов | Блоков | Размер | Дата | Статус | Тег | Скачать |
+|---|---:|---:|---:|---|:---:|:---:|---|
+| [**1.0.0**](versions/1.0.0/README.md) | 117 | 7 | 3.8 МБ | 06.09.2026 | ✅ Релиз | [`v1.0.0`](https://github.com/MXTR-MANAGER/RPGA-Minecraft-Roleplay/releases/tag/v1.0.0) | [⬇ Скачать](versions/1.0.0/RP-MXTR-RPGA-1.0.0.jar) |
+| [**12.1.0**](versions/12.1.0/README.md) | 118 | 7 | 4.0 МБ | 08.09.2026 | ✅ Релиз | [`v12.1.0`](https://github.com/MXTR-MANAGER/RPGA-Minecraft-Roleplay/releases/tag/v12.1.0) | [⬇ Скачать](versions/12.1.0/RP-MXTR-RPGA-12.1.0.jar) |
+| [**30.0.2**](versions/30.0.2/README.md) | 129 | 10 | 4.3 МБ | 24.09.2026 | ✅ Релиз | [`v30.0.2`](https://github.com/MXTR-MANAGER/RPGA-Minecraft-Roleplay/releases/tag/v30.0.2) | [⬇ Скачать](versions/30.0.2/RP-MXTR-RPGA-30.0.2.jar) |
 
 ### 🧪 Бета — **только одиночная игра, на сервер НЕ ставить**
 
@@ -157,10 +199,15 @@ RP-игру: фракции с рангами и формой, живые NPC с
 > для одиночной игры** и локального тестирования. Установка на выделенный
 > сервер не поддерживается и может вызвать ошибки.
 
-| Версия | Предметов | Блоков | Размер | Дата | Статус | Скачать |
-|---|---:|---:|---:|---|:---:|---|
-| **51.3-beta** | 132 | 10 | 4.4 МБ | 28.09.2026 | 🧪 Бета · SP | [⬇ Скачать](versions/51.3-beta/RP-MXTR-RPGA-51.3_beta.jar) |
-| **51.4-beta** | 132 | 10 | 4.4 МБ | 29.09.2026 | 🧪 Бета · SP | [⬇ Скачать](versions/51.4-beta/RP-MXTR-RPGA-51.4_beta.jar) |
+| Версия | Предметов | Блоков | Размер | Дата | Статус | Тег | Скачать |
+|---|---:|---:|---:|---|:---:|:---:|---|
+| [**51.3-beta**](versions/51.3-beta/README.md) | 132 | 10 | 4.4 МБ | 28.09.2026 | 🧪 Бета · SP | [`v51.3-beta`](https://github.com/MXTR-MANAGER/RPGA-Minecraft-Roleplay/releases/tag/v51.3-beta) | [⬇ Скачать](versions/51.3-beta/RP-MXTR-RPGA-51.3_beta.jar) |
+| [**51.4-beta**](versions/51.4-beta/README.md) | 132 | 10 | 4.4 МБ | 29.09.2026 | 🧪 Бета · SP | [`v51.4-beta`](https://github.com/MXTR-MANAGER/RPGA-Minecraft-Roleplay/releases/tag/v51.4-beta) | [⬇ Скачать](versions/51.4-beta/RP-MXTR-RPGA-51.4_beta.jar) |
+
+> 🏷 Каждая версия помечена git-тегом: `v1.0.0`, `v12.1.0`, `v30.0.2`,
+> `v51.3-beta`, `v51.4-beta` — доступна на вкладке
+> [Releases](https://github.com/MXTR-MANAGER/RPGA-Minecraft-Roleplay/releases) и
+> [Tags](https://github.com/MXTR-MANAGER/RPGA-Minecraft-Roleplay/tags).
 
 <details>
 <summary><b>📖 Подробное описание каждой версии</b></summary>
@@ -182,8 +229,46 @@ RP-игру: фракции с рангами и формой, живые NPC с
 | Клавиша | Действие |
 |---|---|
 | `R` | Перезарядка оружия |
-| `F` | Фонарик вкл/выкл |
+| `F` | Фонарик вкл / выкл |
 | `Ctrl` | Сесть / ползти |
+
+---
+
+## 🎨 Credits
+
+Проект использует сторонние 3D-модели с [OpenGameArt.org](https://opengameart.org/).
+Полный список с лицензиями — в файле [LICENSES.md](LICENSES.md).
+
+### CC0 — общественное достояние
+
+| Модель | Автор | Ссылка |
+|---|---|---|
+| Retro Style Pistol Lowpoly *(пистолет)* | **Mohamkey** | [opengameart.org](https://opengameart.org/content/retro-style-pistol-lowpoly) |
+| M9 Knife PBR *(нож)* | **khairul169** | [opengameart.org](https://opengameart.org/content/m9-knife-pbr) |
+| Mk2 Grenade *(граната)* | **LonesomeDucky** | [opengameart.org](https://opengameart.org/content/mk2-grenade) |
+| Radio *(рация)* | **yethiel** | [opengameart.org](https://opengameart.org/content/radio) |
+| Five Tools CC0 *(отвёртка)* | **yd** | [opengameart.org](https://opengameart.org/content/five-tools-cc0) |
+| 3D Keycard *(ключ-карта)* | **codeinfernogames** | [opengameart.org](https://opengameart.org/content/3d-keycard) |
+
+### CC-BY 3.0 — с указанием автора
+
+| Модель | Автор | Лицензия | Ссылка |
+|---|---|---|---|
+| Low Poly Modern Weapons | **Casti_131** | CC-BY 3.0 | [opengameart.org](https://opengameart.org/content/low-poly-modern-weapons-set2-less-poly-version) |
+| Textured Pistol *(Beretta 92)* | **Lotnik** | CC-BY 3.0 | [opengameart.org](https://opengameart.org/content/textured-pistol) |
+
+### 🙏 Спасибо
+
+| Проект | Роль |
+|---|---|
+| [Fabric](https://fabricmc.net/) | Загрузчик модов |
+| [Yarn Mappings](https://fabricmc.net/develop/yarn/) | Маппинги Minecraft |
+| [Not Enough Animations](https://modrinth.com/mod/notenoughanimations) | Анимации рук (вшит в мод) |
+| Авторы моделей выше | 3D-ассеты и референсы |
+
+> 🚫 Часть моделей (C4 Charge, Small Explosives Pack, Handcuffs, Tonfa) **не вошла**
+> в сборку из-за несовместимых лицензий (CC-BY-SA / GPL). Вместо них используются
+> собственные модели с игровыми текстурами.
 
 ---
 
@@ -213,10 +298,18 @@ rp-mxtr-rpga/
 
 Модели, текстуры и звуки имеют **собственные лицензии** (CC0 / CC-BY 3.0) и
 принадлежат их авторам. Полный список с атрибуцией —
-в файле [LICENSES.md](LICENSES.md).
+в файле [LICENSES.md](LICENSES.md) и в разделе [Credits](#-credits).
 
 ---
 
+<div align="center">
+
 ## 👤 Автор
 
-**MXTR** — [MXTR-MANAGER](https://github.com/MXTR-MANAGER) · Репозиторий мода: [MXTR-MANAGER/RPGA-Minecraft-Roleplay](https://github.com/MXTR-MANAGER/RPGA-Minecraft-Roleplay)
+**MXTR** — [@MXTR-MANAGER](https://github.com/MXTR-MANAGER)
+
+Репозиторий мода: [MXTR-MANAGER/RPGA-Minecraft-Roleplay](https://github.com/MXTR-MANAGER/RPGA-Minecraft-Roleplay)
+
+<sub>Сделано с 💛 для RP-серверов на Minecraft 1.21.10 · Fabric</sub>
+
+</div>
