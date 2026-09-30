@@ -1,0 +1,71 @@
+name: 💡 Предложение
+description: Новая фича или улучшение существующей
+title: "[FEATURE] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Расскажите, что хотели бы видеть в моде. Чем конкретнее описание — тем проще оценить,
+        насколько фича полезна для RP-серверов.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Какую проблему это решает
+      description: Опишите ситуацию, в которой фича нужна. Не сам функционал, а именно проблему.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Что предлагаете
+      description: Как это должно работать
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Раздел
+      options:
+        - Оружие и боеприпасы
+        - Документы и удостоверения
+        - Телефон и приложения
+        - Транспорт
+        - NPC
+        - Тюрьма, розыск, штрафы
+        - Фракции, формы, работа
+        - Выживание
+        - Админ-панель
+        - Сеть и мультиплеер
+        - Интерфейс и настройки
+        - Другое
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category-existing
+    attributes:
+      label: Что уже есть похожего
+      description: Если фича частично реализована — отметьте
+      options:
+        - Нет, ничего похожего не знаю
+        - Есть, но неудобно
+        - Есть, но не работает
+        - Не знаю
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Альтернативы
+      description: Какими способами ещё можно решить эту проблему без новой фичи
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Готовы помочь
+      options:
+        - label: Готов прислать идеи для реализации
+        - label: Готов протестировать, когда выйдет

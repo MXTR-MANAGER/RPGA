@@ -14,6 +14,13 @@
 
 ---
 
+> 📘 **Как пользоваться модом:**
+> [**docs/PLAYER-GUIDE.md**](docs/PLAYER-GUIDE.md) — игрокам ·
+> [**docs/ADMIN-GUIDE.md**](docs/ADMIN-GUIDE.md) — администраторам ·
+> [**docs/KNOWN-ISSUES.md**](docs/KNOWN-ISSUES.md) — что сломано
+
+---
+
 ## ⚡ Быстрый ответ
 
 | Что нужно | Ставить | Почему |

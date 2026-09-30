@@ -1,0 +1,113 @@
+name: 🐛 Сообщение об ошибке
+description: Мод ведёт себя не так, как ожидалось
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Спасибо, что нашли проблему! Заполните поля ниже — это сильно ускорит исправление.
+
+        ⚠️ **Перед отправкой** проверьте: у всех ли участников **одна и та же версия мода**.
+        Разные версии — самая частая причина того, что «ничего не работает».
+
+  - type: input
+    id: version
+    attributes:
+      label: Версия мода
+      placeholder: 30.0.1
+      description: Как указано в названии jar-файла, например `RP-MXTR-RPGA-30.0.1.jar`
+    validations:
+      required: true
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Где воспроизводится
+      options:
+        - Одиночная игра
+        - Сервер RPGA
+        - Свой сервер
+      description: От этого зависит, где искать причину
+    validations:
+      required: true
+
+  - type: input
+    id: minecraft
+    attributes:
+      label: Версия Minecraft
+      description: Обычно 1.21.10
+    validations:
+      required: true
+
+  - type: input
+    id: loader
+    attributes:
+      label: Версия Fabric Loader
+      placeholder: 0.19.3
+    validations:
+      required: true
+
+  - type: input
+    id: fabricapi
+    attributes:
+      label: Версия Fabric API
+      placeholder: 0.138.4+1.21.10
+
+  - type: input
+    id: java
+    attributes:
+      label: Версия Java
+      description: Должна быть 21
+      placeholder: 21.0.5
+
+  - type: input
+    id: same-versions
+    attributes:
+      label: У всех ли участников одна версия?
+      description: Если кто-то на другой версии — отметьте «Нет»
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Что произошло
+      description: Опишите проблему своими словами
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Как воспроизвести
+      description: Шаги, чтобы повторить проблему
+      placeholder: |
+        1. Взял предмет X в инвентарь
+        2. Нажал Y
+        3. Получил ошибку
+      render: text
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Что ожидалось
+      description: Как должно было работать
+
+  - type: textarea
+    id: log
+    attributes:
+      label: Лог
+      description: |
+        Содержимое `logs/latest.log` — клиент или сервер.
+        Ошибки искать по слову `ERROR` или по названию вашего предмета/экрана.
+      render: text
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Проверки
+      options:
+        - label: Проверил в логе — там есть ошибка
+        - label: Воспроизводится и на другом мире/сервере
+        - label: Мод переустановлен, файлы конфигурации не трогал
