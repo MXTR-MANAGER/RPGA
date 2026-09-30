@@ -1,0 +1,32 @@
+# Сборочные артефакты Gradle
+build/
+.gradle/
+out/
+
+# Кэш и логи
+*.log
+*.log.*
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Java
+*.class
+net/
+out/production/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
