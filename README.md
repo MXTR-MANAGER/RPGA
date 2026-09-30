@@ -219,4 +219,4 @@ rp-mxtr-rpga/
 
 ## 👤 Автор
 
-**MXTR** — [MXTR-MANAGER](https://github.com/MXTR-MANAGER) · Репозиторий мода: [MXTR-MANAGER/RPGA](https://github.com/MXTR-MANAGER/RPGA)
+**MXTR** — [MXTR-MANAGER](https://github.com/MXTR-MANAGER) · Репозиторий мода: [MXTR-MANAGER/RPGA-Minecraft-Roleplay](https://github.com/MXTR-MANAGER/RPGA-Minecraft-Roleplay)
